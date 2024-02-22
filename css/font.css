@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../font/proxima/Fontspring-DEMO-proximanova-regular.otf');
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    font-weight: 700;
+    src: url('../font/proxima/Fontspring-DEMO-proximanova-regular.otf');
+}
+
+@font-face {
+    font-family: 'Proxima Nova Bold';
+    src: url('../font/proxima/Fontspring-DEMO-proximanova-bold.otf');
+}

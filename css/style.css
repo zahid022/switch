@@ -1,0 +1,554 @@
+:root {
+    --yasil: #54d154;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.w50 {
+    width: 48%;
+    text-align: center;
+}
+
+.din {
+    display: inline-block;
+}
+
+header {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    height: 100vh;
+    background: url('../img/headerbg.jpg') center/cover;
+}
+
+h1 {
+    font: 700 2em Montserrat;
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+h2 {
+    font: 1.25em Montserrat;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #818181;
+}
+
+h3 {
+    font: 700 1.5em 'Proxima Nova';
+    color: #828181;
+    text-align: center;
+}
+
+h6 {
+    font: 1em 'Open Sans';
+    color: #b3b3b3;
+}
+
+hr {
+    width: 43px;
+    height: 2px;
+    border: none;
+    background: #818181;
+}
+
+#menu li a {
+    font: bold 1em 'Proxima Nova';
+    color: #fff;
+    padding: 10px;
+}
+
+#search {
+    display: flex;
+}
+
+#search input,
+#search button {
+    border: none;
+    outline: none;
+    background: #ffffffcc;
+    height: 27px;
+    padding: 6px 15px;
+}
+
+#search input {
+    border-radius: 1em 0 0 1em
+}
+
+#search button {
+    border-radius: 0 1em 1em 0
+}
+
+#search button img {
+    width: 1em
+}
+
+.title-btn {
+    padding: 16px 27px;
+    border: none;
+    border-radius: 19px;
+    background-color: #53d153;
+    color: #fff;
+    margin-top: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#down {
+    background-color: #bebcbc;
+    align-self: center;
+    padding: 5px 12px;
+    border-radius: 10px;
+    font: 300 16px "Proxima Nova" ;
+    color: #111;
+}
+
+main section {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.bg-yashil {
+    background-color: var(--yasil)
+}
+
+.bg-ag {
+    background-color: #fff
+}
+
+.bg-boz {
+    background-color: #f1f1f1
+}
+
+.bg-yashil h2 {
+    color: #1f7b1f
+}
+
+.bg-yashil hr {
+    background: #1f7b1f
+}
+
+.bg-yashil h6 {
+    color: #2b9b2b
+}
+
+.cols3 {
+    padding: 40px 0
+}
+
+.cols3 article {
+    padding: 20px
+}
+
+.cols3 article a {
+    display: inline-block;
+    padding: 7px 20px;
+    margin: 25px;
+    background: var(--yasil);
+    color: #fff;
+    font: bold 1em "Proxima Nova";
+    border: none;
+    border-radius: 30px;
+}
+
+.icon {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    border-radius: 20px;
+    background: #e0f3e0;
+}
+
+.icon i {
+    margin: auto;
+    font-size: 3em;
+    color: var(--yasil)
+}
+
+.btn3 {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0
+}
+
+.btn3 button {
+    border: 1px solid #2b9b2b;
+    padding: 10px 20px;
+    font: 1em 'Proxima Nova';
+    color: #2b9b2b;
+}
+
+.btn3 button.active,
+.btn3 button:hover {
+    background-color: #2b9b2b;
+    color: #fff;
+}
+
+.btn3 button:first-child {
+    border-radius: 20px 0 0 20px
+}
+
+.btn3 button:last-child {
+    border-radius: 0 20px 20px 0
+}
+
+.gallery img {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    padding: 5px 10px;
+}
+
+.row {
+    max-width: 90%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row i {
+    color: #dfdfdf;
+}
+
+.row p {
+    font: 1em "Proxima Nova";
+    color: #444;
+    text-align: center;
+    flex: 0 1 40%;
+}
+
+.herp {
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    margin: auto;
+}
+
+.herp img {
+    float: left;
+    margin-right: 10px;
+}
+
+.herp h4 {
+    font: 1em "Proxima Nova";
+    color: #444;
+    text-align: initial;
+}
+
+.herp p {
+    color: #ccc;
+    font: .8em "Proxima Nova";
+    text-align: initial;
+}
+
+.brw-btn {
+    font: 1.1em "Proxima Nova";
+    color: #a59d9d;
+    padding: 12px 33px;
+    background-color: #dddcdc;
+    border-radius: 16px;
+    display: inline-block;
+    margin: 20px 0;
+}
+
+.browser {
+    max-width: 90%;
+    margin: auto;
+}
+
+.row-img {
+    padding-bottom: 30px;
+}
+
+.item {
+    padding: 40px 0;
+}
+
+.item img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.item hr {
+    width: 3px;
+    height: 75px;
+}
+
+.item p {
+    font: 1em "Proxima Nova";
+    color: #fff;
+}
+
+.icn {
+    margin: 10px 0;
+    background-color: #c5e9c5;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#team {
+    position: relative;
+}
+
+.bt-0 {
+    background-color: #3eba3e;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 30px 0;
+}
+
+.bt-0 a {
+    background-color: #53d153;
+    font-size: 300 1.2em "Proxima Nova";
+    color: #fff;
+    padding: 13px 24px;
+    border-radius: 17px;
+}
+
+.contact {
+    background-color: #333;
+    padding: 30px 0;
+}
+
+.contact-1 {
+    padding: 20px 0;
+    color: #ccc;
+    text-align: center;
+    font-family: "Montserrat";
+}
+
+.contact-1 h4 {
+    margin-bottom: 20px;
+}
+
+.contact-1 hr {
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.contact-1 p {
+    line-height: 1.8em;
+}
+
+.cnt-icn {
+    background-color: #fff;
+    color: black;
+    margin-top: 20px;
+}
+
+.cnt-row {
+    max-width: 90%;
+    margin: auto;
+}
+
+.cnt-img img {
+    float: left;
+    margin: 0 10px 0 0;
+    width: 55px;
+    height: 55px;
+    border-radius: 3px;
+}
+
+.cnt-img {
+    text-align: initial;
+    padding: 0 0 30px 0;
+}
+
+.cnt-img p {
+    font: 300 1em Montserrat;
+    color: #ccc;
+    margin-bottom: 10px;
+}
+
+.cnt-img a {
+    font-size: 300 .8em Montserrat;
+    color: #fff;
+    background-color: #53d153;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.qeydiyyat {
+    padding: 30px 0;
+}
+
+.qeydiyyat input,
+.qeydiyyat textarea {
+    width: 100%;
+    background-color: #444;
+    color: #747474;
+    border: none;
+    display: inline-block;
+    margin: 1px 0;
+    padding: 10px;
+    outline: none;
+}
+
+.qeydiyyat input:first-child {
+    border-radius: 5px 5px 0 0;
+}
+
+.qeydiyyat button {
+    width: 100%;
+    background-color: #2b9b2b;
+    color: #f2f9f2;
+    border: none;
+    cursor: pointer;
+    padding: 10px 0;
+    border-radius: 0 0 5px 5px;
+}
+
+.reklam {
+    background-color: #212121;
+    color: #101010;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.reklam h5 {
+    font-size: 300 1em Montserrat;
+    letter-spacing: 3px;
+}
+
+.reklam hr {
+    height: 3px;
+    background-color: #101010;
+    border: none;
+}
+
+.svg {
+    padding: 20px;
+}
+
+.last {
+    background-color: #111;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.last p {
+    color: #fff;
+    font: 16px Montserrat;
+}
+
+@media only screen and (min-width: 768px) {
+    h1 {
+        font-size: 3.4em;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #menu {
+        order: -1;
+        display: flex;
+    }
+
+    #menu,
+    #search {
+        width: 40%;
+    }
+
+    #search {
+        justify-content: end;
+    }
+
+    .cols3 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .cols3 article {
+        flex: 0 1 30%
+    }
+
+    .icon {
+        width: 140px;
+        height: 140px;
+        margin: 25px auto;
+        border-radius: 30px;
+    }
+
+    .icon i {
+        font-size: 4.6em;
+    }
+
+    .gallery {
+        display: flex;
+        max-width: 950px;
+        margin: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .gallery img {
+        width: 50%;
+    }
+
+    .browser {
+        max-width: 60%;
+        justify-content: center;
+    }
+
+    .row-img {
+        max-width: 90%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .cnt-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .contact-1 {
+        flex: 0 1 30%;
+    }
+
+    .svg4 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 90%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 950px) {
+    .gallery img {
+        width: 160px;
+        height: 160px;
+    }
+
+    .browser {
+        width: auto;
+    }
+
+    .w50 {
+        width: 22%;
+        margin: 10px 5px;
+    }
+
+    .row-img {
+        max-width: 80%;
+    }
+}
